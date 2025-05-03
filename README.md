@@ -77,6 +77,7 @@ streamlit run app2.py
 
 ## 🗂️ Project Structure
 
+```plaintext
 .
 ├── CICIDS2017_sample.csv        # Sample data for testing/training
 ├── N-Model.ipynb                # Jupyter notebook for model training
@@ -86,6 +87,7 @@ streamlit run app2.py
 ├── inference_results.csv        # Output from predictions
 ├── requirements.txt             # Python package dependencies
 └── scaler.pkl                   # Feature scaling object
+```
 
 ---
 
@@ -111,7 +113,7 @@ streamlit run app2.py
 }
 
 
-2.Predictions Collection
+2. Predictions Collection
 
 {
   "email": "alice@example.com",
