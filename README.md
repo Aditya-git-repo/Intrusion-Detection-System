@@ -104,6 +104,7 @@ streamlit run app2.py
 
 ## 💾 MongoDB Schema
 
+```plaintext
 1. Users Collection
 
 {
@@ -111,8 +112,9 @@ streamlit run app2.py
   "email": "alice@example.com",
   "password": "hashed_sha256_password"
 }
+```
 
-
+```plaintext
 2. Predictions Collection
 
 {
@@ -123,6 +125,7 @@ streamlit run app2.py
   "result": "BENIGN",
   "timestamp": "2025-05-03 16:22:11"
 }
+```
 
 ---
 
